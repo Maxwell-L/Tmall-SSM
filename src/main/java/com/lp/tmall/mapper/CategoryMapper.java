@@ -6,11 +6,15 @@ import com.lp.tmall.util.Page;
 import java.util.List;
 
 public interface CategoryMapper {
-    public List<Category> list(Page page);
+    List<Category> list(Page page);
 
-    public int total();
+    int total();
 
     void add(Category category);
 
     void delete(int id);
+
+    Category get(int id);
+
+    void update(Category category);
 }
