@@ -1,20 +1,21 @@
 package com.lp.tmall.mapper;
 
 import com.lp.tmall.pojo.Category;
-import com.lp.tmall.util.Page;
-
+import com.lp.tmall.pojo.CategoryExample;
 import java.util.List;
 
 public interface CategoryMapper {
-    List<Category> list(Page page);
+    int deleteByPrimaryKey(Integer id);
 
-    int total();
+    int insert(Category record);
 
-    void add(Category category);
+    int insertSelective(Category record);
 
-    void delete(int id);
+    List<Category> selectByExample(CategoryExample example);
 
-    Category get(int id);
+    Category selectByPrimaryKey(Integer id);
 
-    void update(Category category);
+    int updateByPrimaryKeySelective(Category record);
+
+    int updateByPrimaryKey(Category record);
 }

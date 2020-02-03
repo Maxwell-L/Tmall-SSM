@@ -49,7 +49,7 @@
         <property name="typeAliasesPackage" value="com.lp.tmall.pojo"/>
         <property name="dataSource" ref="dataSource"/>
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
-        <!-- 分页插件 重构使用
+        <!-- 分页插件 重构使用 -->
         <property name="plugins">
             <array>
                 <bean class="com.github.pagehelper.PageInterceptor">
@@ -60,7 +60,7 @@
                 </bean>
             </array>
         </property>
-        -->
+
     </bean>
 
     <!-- MyBatis的Mapper文件识别 -->
