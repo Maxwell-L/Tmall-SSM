@@ -8,73 +8,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe36d3c7-0a8d-4118-b84f-2572ec9a981a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/controller/PropertyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/OrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/ProductImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/PropertyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/PropertyValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/ReviewMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/CategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/OrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/OrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/ProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/ProductImageExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/PropertyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/PropertyValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/ReviewExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/UserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/PropertyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/PropertyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/util/MybatisGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/util/OverIsMergeablePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PropertyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PropertyValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReviewMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProperty.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProperty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/controller/ProductImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/ProductImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/ProductImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProductImage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/tmall/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lp/tmall/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/com/lp/tmall/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall/WEB-INF/jsp/admin/listProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall/WEB-INF/jsp/admin/listProduct.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,8 +111,7 @@
     </configuration>
     <configuration name="Tomcat 7.0.641" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.641" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/tmall/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="tmall:war exploded">
           <settings>
@@ -305,6 +257,11 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MyBatisGenerator" />
+      <item itemvalue="Application.MybatisGenerator" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.641" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MybatisGenerator" />
@@ -326,7 +283,7 @@
       <workItem from="1580211906838" duration="4754000" />
       <workItem from="1580219951984" duration="3461000" />
       <workItem from="1580223479689" duration="28721000" />
-      <workItem from="1580634865699" duration="19697000" />
+      <workItem from="1580634865699" duration="29338000" />
     </task>
     <servers />
   </component>
